@@ -1,0 +1,16 @@
+{
+    "name": "jmili/hm-studio",
+    "authors": [
+        {
+            "name": "jamiljam",
+            "email": "jmilijamil@hotmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "HmStudio\\": "src/"
+        }
+    }
+}

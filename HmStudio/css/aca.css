@@ -1,0 +1,104 @@
+.section{
+  height: fit-content;
+}
+
+.aca {
+  background-color: #ffffff;
+}
+
+.ableton {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.compo {
+  background-color: #ffffff;
+}
+
+.mix {
+  background-color: #ededed62;
+}
+.distribution {
+  background-color: #ffffff;
+}
+
+.achat {
+  display: flex;
+  justify-content: space-around;
+}
+
+.abt {
+  background-color: #ffffff;
+}
+
+.comparaison {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: none !important;
+}
+
+.affiliation {
+  background-color: #ffffff;
+}
+
+.affiliation a {
+  text-decoration: none;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.affiliation a:hover {
+  border: solid;
+}
+
+@media only screen and (min-width: 1500px) {
+  .acasize h2 {
+    font-size: 3em;
+  }
+  .acasize p {
+    font-size: 1.5em;
+  }
+  .acasize h4 {
+    font-size: 2.3em;
+  }
+  .btn-achat {
+    font-size: 1.5em;
+  }
+  .btn-achat-ableton {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .alignement{
+    margin-top: 50px;
+  }
+}
+
+.btn-achat {
+  color: #000000;
+  text-decoration: none;
+}
+
+.btn-achat:hover {
+  border: 0.4rem solid black;
+  background-color: #000000;
+  text-decoration: none;
+  color: #ffffff;
+  border-radius: 3px;
+}
+
+.btn-achat-ableton {
+  color: #ffffff;
+}
+
+.btn-achat-ableton:hover {
+  border: 0.4rem solid rgb(255, 255, 255);
+  background-color: #ffffff;
+  text-decoration: none;
+  color: #000000;
+  border-radius: 3px;
+}

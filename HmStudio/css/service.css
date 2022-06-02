@@ -1,0 +1,30 @@
+.service{
+    background-color: white;
+}
+
+.post{
+    background-color: #F2F2F2;
+}
+
+.appel{
+    background-color: white;
+}
+
+.projet{
+    background-color: white;
+}
+
+@media only screen and (min-width: 1400px) {
+    .size h2{
+        font-size: 3em;
+    }
+    .size p{
+        font-size: x-large!important;
+    }
+    .size h4{
+        font-size: xx-large!important;
+    }
+    .size a{
+        font-size: x-large!important;
+    }
+  }
